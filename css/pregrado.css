@@ -1,0 +1,136 @@
+body {
+	background:#EFECE7;
+	
+}
+
+
+.contenedor{
+	width: 80%;
+	margin:auto;
+}
+
+/*cabeza login*/
+.header {
+	height: 110px;
+	background:#DDD7CB;
+	padding-top: 30px;
+}
+
+.logo{
+	float: left;
+	margin-right: 198px;
+	margin-left: 210px;
+}
+/*innova*/
+.innova{
+	background: url("../img/innova.png");
+	background-size: cover;
+	height: 150px;
+	width: 70%;
+    margin: 0 auto;
+}
+
+/*footer*/
+.footer{
+	height: 100px;
+	background: #000000;
+	color: white;
+}
+.footer p{
+	padding-top: 20px;
+}
+/*pregrado*/
+
+h2, h4{ 
+	color:#ED9819;
+}
+.pregrado {
+	width: 700px;
+	
+	text-align: justify;
+	margin-top: 80px;
+	margin-left: 430px;
+	margin-bottom: 80px;
+}
+.pregrado img{
+	margin: 40px;
+	text-align: center;
+}
+/*menuprincipal1*/
+.secciones1
+{
+  padding:0;
+}
+.#menu-principal1 .secciones1 img
+{
+ display: block;
+ float:left;
+
+}
+.secciones1 li ul li
+{
+  position:relative;
+}
+.secciones1 li ul li ul
+{
+  right:-140px;
+  top:0;
+}
+
+.secciones1 li
+{
+  background: #ED9819;
+  border: 3px solid white;
+  list-style: none;
+  margin:5px 0 0;
+ 
+  height:100%;
+}
+.secciones1 p
+{
+  font-family: arial sans-serif;
+  color:white;
+  font-size: 20px;
+  font-weight: 3px;
+  padding:10px;
+}
+.secciones1 a
+{
+  padding:7px 12px;
+  text-decoration: none;
+  color:white;
+}
+#menu-principal1
+{
+	/*margin-top:-80px;*/
+  	margin:170px;
+  	padding:65px;
+  	position:fixed;
+}
+/*menu judith*/
+.menu{
+	    text-align: center;
+		margin:-34px -4px -31px 0px;
+
+}
+.menu li{
+		display: inline-block;
+		margin:-80px 0px 30px 0px;
+}
+.menu a{
+	color:#fff;
+	text-decoration: none;
+	background:#ED9819;
+	padding:15px;
+	font-family:Verdana;
+
+}
+.menu a:hover{
+	display:block;
+	background:#A30936;
+	transform:scale(1.2);
+	transition:all 0.5s;
+}
+.texto{
+	text-align: justify;
+}
